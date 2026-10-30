@@ -1,0 +1,16 @@
+/* Component Stylesheet for Landing Page Trust Signals & Regulatory Compliance Swipe File */
+/* File: components/trust-strip.css */
+:root {
+  --primary-color: #0284c7;
+  --bg-color: #0f172a;
+  --card-bg: #1e293b;
+  --text-main: #f8fafc;
+}
+
+.repo-container {
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  color: var(--text-main);
+  background-color: var(--bg-color);
+  padding: 1rem;
+}

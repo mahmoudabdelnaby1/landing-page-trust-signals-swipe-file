@@ -1,0 +1,23 @@
+{
+  "saudi_arabia": [
+    {
+      "badge_id": "mawthooq",
+      "name": "موثوق",
+      "authority": "الهيئة العامة لتنظيم الإعلام",
+      "placement": "Header & Footer"
+    },
+    {
+      "badge_id": "maroof",
+      "name": "معروف الذهبي",
+      "authority": "وزارة التجارة",
+      "placement": "Product Page below CTA"
+    }
+  ],
+  "egypt": [
+    {
+      "badge_id": "fawry_secure",
+      "name": "دفع آمن عبر فوري",
+      "placement": "Checkout Step 2"
+    }
+  ]
+}

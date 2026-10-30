@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Trust Badges Strip (MENA)</title>
+<style>
+  :root { --border: #e2e8f0; --text: #334155; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, sans-serif; padding: 2rem 1rem; background: #f8fafc; margin: 0; }
+  .trust-strip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.25rem 2rem;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  .trust-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .icon-circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #f1f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+  }
+</style>
+</head>
+<body>
+<div class="trust-strip">
+  <div class="trust-badge">
+    <div class="icon-circle">🔒</div>
+    <div>دفع آمن 100%<br><span style="font-size: 0.75rem; color: #94a3b8; font-weight: normal;">تشفير SSL 256-bit</span></div>
+  </div>
+  <div class="trust-badge">
+    <div class="icon-circle">💳</div>
+    <div>مدى & Apple Pay<br><span style="font-size: 0.75rem; color: #94a3b8; font-weight: normal;">دفع سريع ومباشر</span></div>
+  </div>
+  <div class="trust-badge">
+    <div class="icon-circle">⏱️</div>
+    <div>قسم فاتورتك 4 دفعات<br><span style="font-size: 0.75rem; color: #94a3b8; font-weight: normal;">عبر تابي وتمارا بدون فوائد</span></div>
+  </div>
+  <div class="trust-badge">
+    <div class="icon-circle">🔄</div>
+    <div>استبدال واسترجاع مرن<br><span style="font-size: 0.75rem; color: #94a3b8; font-weight: normal;">خلال 14 يوماً من الاستلام</span></div>
+  </div>
+</div>
+</body>
+</html>
